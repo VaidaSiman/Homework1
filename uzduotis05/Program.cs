@@ -31,8 +31,8 @@ namespace uzduotis05
             Console.WriteLine();
 
             Console.WriteLine(skaicius);
-            Console.WriteLine(Math.Pow(skaicius,2));
-            Console.WriteLine(Math.Pow(skaicius, 3));
+            Console.WriteLine(Math.Pow(skaicius,2)); //Kvadratin4 šaknis
+            Console.WriteLine(Math.Pow(skaicius, 3)); //Kubinė šaknis
             Console.WriteLine();
             Console.WriteLine(skaicius * numeris * indeksas);
 
