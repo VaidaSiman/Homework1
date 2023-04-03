@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 uzduotis", "02 uzduotis"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 uzduotis", "02 uzduotis\02 uzduotis.csproj", "{C41FC115-A141-4041-A769-E25FB4077DEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uzduotis03", "uzduotis03", "{8101236D-4FA2-4F52-91B1-D280451137E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis03", "uzduotis03\uzduotis03.csproj", "{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{C41FC115-A141-4041-A769-E25FB4077DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41FC115-A141-4041-A769-E25FB4077DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41FC115-A141-4041-A769-E25FB4077DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{65BE3E0A-7C75-4B44-8E12-2D31B8AA5094} = {2543CC7D-64B4-4D67-9866-C02E8F75855E}
 		{C41FC115-A141-4041-A769-E25FB4077DEC} = {7342AFAF-7A9E-42C7-A0EC-8F33E190718F}
+		{FF5ED6B4-1FA3-4F97-B25A-930A33E2D17E} = {8101236D-4FA2-4F52-91B1-D280451137E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F97A4938-A8CF-4325-8BB5-9A60F600C425}
