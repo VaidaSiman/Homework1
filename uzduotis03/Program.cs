@@ -13,6 +13,12 @@ namespace uzduotis03
             //Lietuviškos raidės
             Console.OutputEncoding = Encoding.UTF8;
 
+            /* Išveskite į ekraną norimo dydžio tuščiavidurį kvadratą iš žvaigždučių.
+            ****
+            *  *
+            *  *
+            **** */
+
             string pilnaeilute = "******";
             string tusciaeilute = "*    *";
 

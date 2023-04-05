@@ -13,31 +13,26 @@ namespace uzduotis05
             //Lietuviškos raidės
             Console.OutputEncoding = Encoding.UTF8;
 
-            int skaicius = 5;
-            int numeris = 6;
-            int indeksas = 3;
-            int suma = skaicius + numeris;
-
-            Console.WriteLine("{0} + {1} = {2}",skaicius, numeris,suma);
-          
-            int skirtumas = skaicius - numeris;
-            Console.WriteLine("{0} - {1} = {2}", skaicius, numeris, skirtumas);
-
-            int sandauga = skaicius * numeris;
-            Console.WriteLine("{0} * {1} = {2}", skaicius, numeris, sandauga);
-
-            int dalyba = skaicius / numeris;
-            Console.WriteLine("{0} / {1} = {2}", skaicius, numeris, dalyba);
+            //Išveskite į ekraną dviejų skaičių sumą, skirtumą, sandaugą ir dalmenį, kiekvieną kartą nurodant atliekamą veiksmą ir šių skaičių reikšmes. 
+               
+            float skaicius1 = 5.0f;
+            int skaicius2 = 6;
+            int skaicius3 = 3;
+         
+            Console.WriteLine("{0}+{1} = {2}" , skaicius1, skaicius2, skaicius1 + skaicius2);
+            Console.WriteLine("{0} - {1} = {2}", skaicius1, skaicius2, skaicius1 - skaicius2);
+            Console.WriteLine("{0} * {1} = {2}", skaicius1, skaicius2, skaicius1 * skaicius2);
+            Console.WriteLine("{0} / {1} = {2}", skaicius1, skaicius2, skaicius1 / skaicius2);
             Console.WriteLine();
 
-            Console.WriteLine(skaicius);
-            Console.WriteLine(Math.Pow(skaicius,2)); //Kvadratin4 šaknis
-            Console.WriteLine(Math.Pow(skaicius, 3)); //Kubinė šaknis
+            //Išveskite į ekraną pasirinktą skaičių, jo kvadratą ir jį pakeltą trečiuoju laipsniu.
+
+            Console.WriteLine(skaicius1);
+            Console.WriteLine(Math.Pow(skaicius1,2)); //kėlimas kvadratu
+            Console.WriteLine(Math.Pow(skaicius1, 3)); //kėlimas kubu
             Console.WriteLine();
-            Console.WriteLine(skaicius * numeris * indeksas);
-
-
-
+            //Išveskite į ekraną trijų skaičių sandaugą.
+            Console.WriteLine(skaicius1 * skaicius2 * skaicius3);
         }
     }
 }
