@@ -8,10 +8,10 @@ namespace uzduotis05
         static void Main(string[] args)
         {
             //Lietuviškos raidės
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             //Išveskite į ekraną dviejų skaičių sumą, skirtumą, sandaugą ir dalmenį, kiekvieną kartą nurodant atliekamą veiksmą ir šių skaičių reikšmes. 
-               
+
             float skaicius1 = 5.0f;
             int skaicius2 = 6;
             int skaicius3 = 3;

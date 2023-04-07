@@ -9,10 +9,10 @@ namespace uzduoti04
         static void Main(string[] args)
         {
             //Lietuviškos raidės
-            Console.OutputEncoding = Encoding.UTF8;
+            CConsole.OutputEncoding = System.Text.Encoding.UTF8;
 
             /*Susikurkite reikiamus kintamuosius užduočiai atlikti. Į ekraną išveskite: Automobilio {markė} {modelis} ({metai} m.) rida - {rida} km.
-            Tarp { } nurodyti reikiami kintamieji, šiose vietose jų reikšmės turi būti įstatytos.*/ 
+            Tarp { } nurodyti reikiami kintamieji, šiose vietose jų reikšmės turi būti įstatytos.*/
 
             string marke = "VW";
             string modelis = "GOLF";

@@ -6,7 +6,7 @@ namespace uzduotis07
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
 
             /*
@@ -14,7 +14,7 @@ namespace uzduotis07
              * Į ekraną išveskite: “Jūsų vardas {vardas}, o amžius {amžius}.
              */
 
-             Console.Write("Jūsų vardas: ");
+            Console.Write("Jūsų vardas: ");
              string vardas = Console.ReadLine();
              Console.Write("Jūsų amžius: ");
              int amzius = Convert.ToInt32(Console.ReadLine());

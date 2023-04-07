@@ -8,7 +8,7 @@ namespace uzduotis06
         static void Main(string[] args)
         {
             //Lietuviškos raidės
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             //Išveskite pasirinkto skaičiaus daugybos lentelę. Pvz.: 5 * 0 = 0   5 * 1 = 5 
 
