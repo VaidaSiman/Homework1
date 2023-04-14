@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis11", "uzduotis11\uz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis12", "uzduotis12\uzduotis12.csproj", "{6263FD56-7871-4DCA-B8C1-28AC878038CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis13", "uzduotis13\uzduotis13.csproj", "{E79FE368-185A-434C-B6E4-3F7CFE12F98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uzduotis14", "uzduotis14\uzduotis14.csproj", "{5D4AD44F-7E3C-4D3E-B074-4CCF580E7D41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{6263FD56-7871-4DCA-B8C1-28AC878038CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6263FD56-7871-4DCA-B8C1-28AC878038CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6263FD56-7871-4DCA-B8C1-28AC878038CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79FE368-185A-434C-B6E4-3F7CFE12F98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79FE368-185A-434C-B6E4-3F7CFE12F98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79FE368-185A-434C-B6E4-3F7CFE12F98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79FE368-185A-434C-B6E4-3F7CFE12F98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4AD44F-7E3C-4D3E-B074-4CCF580E7D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4AD44F-7E3C-4D3E-B074-4CCF580E7D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4AD44F-7E3C-4D3E-B074-4CCF580E7D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4AD44F-7E3C-4D3E-B074-4CCF580E7D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
