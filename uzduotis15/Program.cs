@@ -41,6 +41,7 @@ namespace uzduotis15
                 Console.Write($"[{i}] ");
             }
             Console.WriteLine();
+
             /* 
              * Parašyti for, kuris eitų pro kiekvieną skaičių nuo 1 iki 10.
              * jame apsirašyti if sąlygą, kuri patikrintų,
@@ -50,7 +51,9 @@ namespace uzduotis15
             for (int i = 1; i < 11; i++)
             {
                 if (i % 2 == 0)
-                Console.WriteLine($"{i}");
+                {
+                    Console.WriteLine($"{i}");
+                }
             }
          }
      }
