@@ -60,8 +60,6 @@ namespace uzduotis21
             * narį bent iš vieno pasirinkto masyvo.
             */
 
-            int[] pazymiai = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
             Console.WriteLine($"Pirma reikšmė: {0}", pazymiai[0]);
             Console.WriteLine($"Paskutinė reikšmė: {pazymiai.Length}", pazymiai.Length - 1);
 
