@@ -41,7 +41,7 @@ namespace uzduotis18
             double kaina = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
 
-            Console.Write("Numatytas iškepti kepalų skaičius per dieną: ");
+            Console.Write("Užsakymų skaičius: ");
             int uzsakymaiDienos = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
@@ -62,7 +62,7 @@ namespace uzduotis18
             }
 
             Console.WriteLine();
-            Console.WriteLine($"Dienos pelnas: {(kaina - savikaina) * iskeptaIsviso}");
+            Console.WriteLine($"Dienos pelnas: {(kaina - savikaina) * uzsakymaiDienos}");
         }
     }
 }
