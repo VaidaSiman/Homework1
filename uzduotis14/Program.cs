@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace uzduotis14
 {
     internal class Program
@@ -38,19 +37,16 @@ namespace uzduotis14
                 case 1:
                     Console.WriteLine("Nešiojamuoju kompiuteriu galite naudotis visur.");
                     break;
-
                 case 2:
                     Console.WriteLine("Stacionariu kompiuteriu galite naudotis tik namuose arba darbo vietoje.");
                     break;
-
                 case 3:
                     Console.WriteLine("Plančete galite naudotis visur.");
                     break;
-
                 default:
                     Console.WriteLine("Tokio pasirinkimo nėra!");
                     break; 
             }
         }
-}
+    }
 }
