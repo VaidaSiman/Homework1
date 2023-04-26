@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace uzduotis29
 {
@@ -29,7 +25,6 @@ namespace uzduotis29
             string hobis = Console.ReadLine();
             Pomegis(hobis);
             Console.WriteLine();
-
         }
 
         private static void Pomegis(string hobis)
