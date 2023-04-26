@@ -27,9 +27,10 @@ namespace uzduotis16
 
             for (int i = 20; i < 41; i++)
             {
+                if(i % 2 == 0)
                 suma1 += i;
             }
-            Console.WriteLine("atsakymas: " + suma1);
+            Console.WriteLine("Lyginių skaičių suma (atsakymas): " + suma1);
             Console.WriteLine();
 
             /* Raskite visų nelyginių skaičių nuo 30 iki 60 sumą. */
@@ -38,9 +39,10 @@ namespace uzduotis16
 
             for (int i = 30; i < 61; i++)
             {
+                if(i % 2 != 0)
                 suma2 += i;
             }
-            Console.WriteLine("atsakymas: " + suma2);
+            Console.WriteLine("Nelyginių skaičių suma (atsakymas): " + suma2);
             Console.WriteLine();
 
             /*Rasti visų skaičių, žemesnių už 1000 ir didesnių už 0 bei kurie dalinasi iš 3 arba
