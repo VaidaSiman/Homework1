@@ -13,12 +13,17 @@ namespace uzduotis19
              * kiek skaičių intervale [0 – 1000) dalinasi iš 16.
              */
            
+            int skaiciai = 0;
+
             for (int i = 0; i < 1001; i++)
             {
                 if (i % 16 == 0)
-                Console.WriteLine(i);
+                {
+                    skaiciai++;
+                } 
             }
-            Console.WriteLine();
+            Console.WriteLine($"{skaiciai}");
+
             /*
              * Liepkite vartotojui įvesti teigiamą skaičių.
              * While ciklo viduje skaičių kelkite vis
@@ -34,11 +39,11 @@ namespace uzduotis19
             int atsakymas = Convert.ToInt32(Math.Pow(skaicius, 1));
            
 
-            while (Math.Pow(atsakymas, laipsnis) < 1501 && Math.Pow(atsakymas, laipsnis) > 0)
+            while (Math.Pow(atsakymas, laipsnis) < 1501)
             {
                 Console.WriteLine(Math.Pow(atsakymas,laipsnis));
                 laipsnis++; 
-            } 
-         }
+            }
+        }
     }
 }
