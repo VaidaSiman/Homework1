@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace uzduotis12
 {
     internal class Program
@@ -13,7 +12,7 @@ namespace uzduotis12
              * Liepkite įvesti tris skirtingus skaičius. 
              * Suraskite, kuris iš šių skaičių yra didžiausias.
              */
-
+            
             Console.Write("Įveskite pirmąjį skaičių: ");
             string ivedimas = Console.ReadLine();
             int skaicius1 = Convert.ToInt32(ivedimas);
@@ -41,13 +40,18 @@ namespace uzduotis12
             {
                 Console.WriteLine($"Skaičius {skaicius3} yra didžiausias");
             } 
-            Console.WriteLine();
+           
+            else
+            {
+                Console.WriteLine($"Visi skaičiai yra vienodi");
+            } 
             /*
              * Liepkite įvesti egzamino rezultatą. Atlikite šiuos patikrinimus:
              * ar gautas rezultatas yra [8-10];
              * ar gautas rezultatas yra [5-8);
              * ar gautas rezultatas yra < 5.
              */
+            
             Console.Write("Įveskite egzamino rezultatą: ");
             string pasirinkimas = Console.ReadLine();
             int rezultatas = Convert.ToInt32(pasirinkimas);
@@ -66,7 +70,7 @@ namespace uzduotis12
             {
                 Console.WriteLine("Jūsų egzamino rezultatas patenka tarp [1 - 5]"); 
             }
-            Console.WriteLine();
+
             /*
              * Liepkite įvesti du skaičius. 
              * Patikrinkite (naudojant 4 atskirus if’us):

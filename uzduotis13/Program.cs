@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace uzduotis13
 {
     internal class Program
@@ -16,18 +15,16 @@ namespace uzduotis13
              * ar jis lygus 2: išveskite pirmo ir trečio skaičių skirtumą;
              * ar jis lygus 3: išveskite antro ir trečio skaičių sandaugą.
              */
-       
+            
             Console.Write("Įveskite pirmąjį skaičių: ");
             string ivedimas = Console.ReadLine();
             double skaicius = Convert.ToDouble(ivedimas);
             Console.WriteLine();
 
-
             Console.Write("Įveskite pirmąjį skaičių: ");
             string ivedimas1 = Console.ReadLine();
             double skaicius2 = Convert.ToDouble(ivedimas1);
             Console.WriteLine();
-
 
             Console.Write("Įveskite pirmąjį skaičių: ");
             string ivedimas3 = Console.ReadLine();
@@ -48,7 +45,7 @@ namespace uzduotis13
                     Console.WriteLine($"{skaicius2} * {skaicius3} = {skaicius2 * skaicius3}");
                     break; 
             }
-            Console.WriteLine();
+            Console.WriteLine(); 
             /*
              * Liepkite vartotojui įvesti gyvūno rūšį. 
              * Su switch patikrinkite:
@@ -74,8 +71,10 @@ namespace uzduotis13
                 case "ziurkenas":
                     Console.WriteLine("Įvestas gyvūnas yra žiurkėnas.");
                     break;
+                default:
+                    Console.WriteLine("Toks gyvūnas nerastas.");
+                    break; 
             }
-
         }
     }
 }

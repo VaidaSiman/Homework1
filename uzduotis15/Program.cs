@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace uzduotis15
 {
     internal class Program
